@@ -16,3 +16,18 @@ Para evolucionar el patrón MVC a un patrón tipo microservicios, hay que modula
 
 ***
 
+## Ejercicio 2 ##
+
+**En la aplicación que se ha usado como ejemplo en el ejercicio anterior, ¿podría usar diferentes lenguajes? ¿Qué almacenes de datos serían los más convenientes?**
+
+Para la parte BACK-END se ha utilizado Google App Engine junto con el lenguaje de programación Python. La base de datos es la DataStore de tipo NO-SQL proporcionada por Google.
+
+Para la parte FRONT-END se han utilizado los lenguajes de programación HTML5 y CSS3, JAVASCRIPT (AJAX y JQUERY). 
+
+Por lo tanto, se utilizan distintos lenguajes de programación para programar la aplicación web.
+
+La base de datos que más se adapta al tipo de aplicación es NO-SQL, ya que hay una gran cantidad de datos que se reciben constantemente por lo que se requiere de la rapidez proporcionada por este tipo de bases de datos. Además, gracias a que funciona con JSON nos facilita el envío de datos por medio de API REST.
+
+Concluyendo, la base de datos que más conviene es la DataStore debido que está perfectamente integrida con Google App Engine, simplificando el trabajo que tiene que realizar el usuario: despliegue de la base de datos, integración con el sistema, gestión de índices... Google nos simplifica considerablemente todas estas tareas.
+
+***
