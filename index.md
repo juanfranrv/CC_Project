@@ -4,7 +4,7 @@ layout: index
 
 ## Máster profesional en Ingeniería Informática - Cloud Computing ##
 
-##Ejercicios##
+## Ejercicios ##
 
 * [Ejercicios Tema 1: Arquitecturas software para la nube](https://juanfranrv.github.io/CC_Project/ejercicios_Tema1)
 
