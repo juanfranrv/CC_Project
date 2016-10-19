@@ -10,16 +10,9 @@ layout: ejercicios_Tema1
 
 La aplicación que he elegido ha sido [IDron Data Analyzer](https://github.com/juanfranrv/iDronDataAnalyzer) (mi TFG). 
 
-El patrón que utilizar es MVC (Modelo-Vista-Controlador). 
+El patrón que utiliza es MVC (Modelo-Vista-Controlador). 
+
+Para evolucionar el patrón MVC a un patrón tipo microservicios, hay que modularizar el controlador en distintos microservicios de forma que estén conectados entre sí y con el cliente, gracias a una API REST. De esta forma, tenemos distintos microservicios separados entre sí y totalmente independientes que se encuentran comunicados con el sistema y el cliente a través de un sistema de API REST.
 
 ***
 
-## Ejercicio 2 ##
-
-**En la aplicación que se ha usado como ejemplo en el ejercicio anterior, ¿podría usar diferentes lenguajes? ¿Qué almacenes de datos serían los más convenientes?**
-
-Para la parte BACK-END se utilizará el framework Django junto con el lenguaje de programación Python. La base de datos será de tipo NO-SQL, MongoDB.
-
-Para la parte FRONT-END se utilizará HTML5 y CSS3, JAVASCRIPT (AJAX y JQUERY). Puede que se utilice el framework ANGULARJS. Para los gráficos se utilizará la librería HIGHCHARTS y para los mapas la librería GOOGLE MAPS.
-
-***
